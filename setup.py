@@ -53,5 +53,5 @@ setup(
             'breathe-apidoc = breathe.apidoc:main',
         ],
     },
-    install_requires=['Sphinx>=3.0,<3.6', 'docutils>=0.12', 'six>=1.9'],
+    setup_requires=['Sphinx>=3.0,<3.6', 'docutils>=0.12', 'six>=1.9'],
 )
